@@ -16,8 +16,8 @@ class InitialViewController: UIViewController {
     }
     
     @IBAction func goToLogin(_ sender: Any) {
-        let loginViewController = LoginViewController(nibName: LoginViewController.typeName, bundle: nil)
-        navigationController?.pushViewController(loginViewController, animated: true)
+        let collectionViewController = CollectionViewController(nibName: CollectionViewController.typeName, bundle: nil)
+        navigationController?.pushViewController(collectionViewController, animated: true)
     }
 }
 
